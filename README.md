@@ -18,3 +18,12 @@
 - 또 반대로, Model에서 가져온 데이터를 View에 보여주기 위한 로직(가공)을 처리하고 View에 전달한다.
 
 ---
+## 프로젝트 소개
+<div>
+  <img src="https://github.com/user-attachments/assets/c6b2af91-aad2-461c-950d-625e46001733" alt="alt text" width="300" height="600" style="display: inline-block; margin-right: 20px;"> &nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/0e905b73-e6b1-43eb-a5ae-6f90963f76de" alt="alt text" width="300" height="600" style="display: inline-block;">
+</div>
+
+> 왼쪽 화면에서 1234 비밀번호를 입력했을 때,
+> 오른쪽 화면처럼 "비밀번호 unlock 성공"라고 쓰여진 TextView를 보이게 하는 간단한 로직
+
