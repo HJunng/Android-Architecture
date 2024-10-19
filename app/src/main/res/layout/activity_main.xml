@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="mainActivity"
+            type="com.junng.mvp_architecture.MainActivity" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="1"
+                android:onClick="@{() -> mainActivity.clickNumber(1)}"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="2"
+                android:onClick="@{() -> mainActivity.clickNumber(2)}"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="3"
+                android:onClick="@{() -> mainActivity.clickNumber(3)}"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="4"
+                android:onClick="@{() -> mainActivity.clickNumber(4)}"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="5"
+                android:onClick="@{() -> mainActivity.clickNumber(5)}"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="6"
+                android:onClick="@{() -> mainActivity.clickNumber(6)}"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="7"
+                android:onClick="@{() -> mainActivity.clickNumber(7)}"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="8"
+                android:onClick="@{() -> mainActivity.clickNumber(8)}"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="9"
+                android:onClick="@{() -> mainActivity.clickNumber(9)}"/>
+
+        </GridLayout>
+        
+        <TextView
+            android:id="@+id/message_success"
+            android:text="비밀번호 unlock 성공"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</layout>
